@@ -2,5 +2,10 @@
   <h1>
     Welcome to {{title}}
   </h1>
+  <input type="text" [(ngModel)]="_title">
+  <br>
+  {{_title | titleCase}}
+  <br>
+  <br>
   <app-authors></app-authors>
 
