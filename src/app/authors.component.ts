@@ -10,7 +10,7 @@ import { AuthorsService } from './authors.service';
     {{teacher}}
     </li>
   </ul>
-  <btn btn-primary>Save</bn>
+  <button class="btn btn-primary">Save</button>
   `
 })
 
